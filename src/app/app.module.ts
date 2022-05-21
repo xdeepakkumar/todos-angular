@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { ErrorComponent } from './error/error.component';
+import { LogoutComponent } from './logout/logout.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ErrorComponent } from './error/error.component';
     ListTodosComponent,
     MenuComponent,
     FooterComponent,
-    ErrorComponent
+    ErrorComponent,
+    LogoutComponent,
   ],
   imports: [
     BrowserModule,
